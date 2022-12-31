@@ -8,7 +8,7 @@ In addition, this paper claims that this algorithm can perform better than the o
 
 # Content:
 - [Algorithm logic](https://github.com/HendEmad/Autonomous-navigation-system/blob/main/Line%20segment%20extraction%20algorithm%20for%20SLAM%20applications/Algorithm%20logic.md)
-- Code Structure
+- [Code Structure](https://github.com/HendEmad/Autonomous-navigation-system/blob/main/Line%20segment%20extraction%20algorithm%20for%20SLAM%20applications/Code%20structure.md)
 - [Output](https://github.com/HendEmad/Autonomous-navigation-system/blob/main/Line%20segment%20extraction%20algorithm%20for%20SLAM%20applications/Code/Output.md)
 - [Floor map image](https://github.com/HendEmad/Autonomous-navigation-system/blob/main/Line%20segment%20extraction%20algorithm%20for%20SLAM%20applications/Code/Original%20floor%20map.md)
 - [Code implementation](https://github.com/HendEmad/Autonomous-navigation-system/tree/main/Line%20segment%20extraction%20algorithm%20for%20SLAM%20applications/Code)
