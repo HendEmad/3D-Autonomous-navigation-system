@@ -47,6 +47,8 @@ Unify the overlapping line segments to produce a larger one.
 # The last step:
 The end points generation, this is achieved ny ptojecting the outermost points to to the fitting line and that will be the endpoints of the line segment.
 
+![image](https://user-images.githubusercontent.com/91827137/210156958-7ff1999b-f91e-4fa3-bdc5-666dee53c940.png)
+
 -------
 The whole process can be iterated until the iseful features in that specific lidar scan are extracted.
 
