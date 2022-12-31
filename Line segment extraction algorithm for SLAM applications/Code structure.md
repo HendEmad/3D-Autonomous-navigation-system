@@ -22,3 +22,6 @@ It contains only 2 methods which are the main methods to be used:
 2. The seed segment growing.
 
 ***These two methods will use the methods from the first group.***
+
+### Note:
+The paper clearly states that the standard least square method for the fitting may yield unsatisfactory parameter estimation results because it only minimizes the vertical distance for each point from the line. So, the orthogonal line fitting which minimizes the perpendicular distance of each point from the line is adopted to obtain satisfactory line fitting results.
