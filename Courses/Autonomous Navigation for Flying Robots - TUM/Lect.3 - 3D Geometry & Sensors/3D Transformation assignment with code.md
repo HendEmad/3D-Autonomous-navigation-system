@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/91827137/211112899-e484b195-113f-4036-a948-aad6518fa4c5.png)
 
 # Answer:
-![image](https://user-images.githubusercontent.com/91827137/211115177-dadc210d-4096-4ce4-82c1-ed583996a6ff.png)
+![IMG20230107005811](https://user-images.githubusercontent.com/91827137/211115418-92935f56-87e3-4a04-adba-f68a4611ced7.jpg)
 
 # Code:
 ```
