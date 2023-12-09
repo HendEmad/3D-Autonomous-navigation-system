@@ -93,7 +93,46 @@ while true
     
    % ********************************************************************* 
     % YOUR CODE BETWEEN THESE LINES OF STARS
+    ii=0;
+    jj=0;
+    if (i>1 && i<=nrows)
+        ii = i-1;
+        jj = j;
+        if (map(ii,jj)~=2 && map(ii,jj)~=3 && map(ii,jj)~=5)
+            map(ii,jj) = 4;
+            parent(ii,jj) = current;
+            distanceFromStart(ii,jj) = min_dist+1;
+        end
+    end
+    if (i>=1 && i<nrows)
+        ii = i+1;
+        jj = j;
+        if (map(ii,jj)~=2 && map(ii,jj)~=3 && map(ii,jj)~=5)
+            map(ii,jj) = 4;
+            parent(ii,jj) = current;
+            distanceFromStart(ii,jj) = min_dist+1;
+        end
+    end
+    if (j>1 && j<=ncols)
+        jj = j-1;
+        ii = i;
+        if (map(ii,jj)~=2 && map(ii,jj)~=3 && map(ii,jj)~=5)
+            map(ii,jj) = 4;
+            parent(ii,jj) = current;
+            distanceFromStart(ii,jj) = min_dist+1;
+        end
+    end
+    if (j>=1 && j<ncols)
+        jj =j+1;
+        ii = i;
+        if (map(ii,jj)~=2 && map(ii,jj)~=3 && map(ii,jj)~=5)
+            map(ii,jj) = 4;
+            parent(ii,jj) = current;
+            distanceFromStart(ii,jj) = min_dist+1;
+        end
+    end
     
+    numExpanded = numExpanded + 1;
     % Visit each neighbor of the current node and update the map, distances
     % and parent tables appropriately.
     
